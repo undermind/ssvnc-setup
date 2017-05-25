@@ -1,5 +1,6 @@
 # ssvnc-setup
 SSVNC with patched ThightVNC boundle setup script for InnoSetup
+
 Привязан к пути d:\Work\vnc-client\ssvnc\
 vnc-client.iss - этот путь нужно изменить в исходнике или работать с ним.
 
