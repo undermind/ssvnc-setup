@@ -8839,7 +8839,9 @@ proc launch {{hp ""}} {
 			puts $fh "options = DONT_INSERT_EMPTY_FRAGMENTS"
 		}
 	} else {
-		puts $fh "options = ALL"
+		puts $fh "sslVersion = all"
+		puts $fh "options = NO_SSLv2"
+		puts $fh "options = NO_SSLv3"
 	}
 
 	puts $fh "taskbar = yes"
